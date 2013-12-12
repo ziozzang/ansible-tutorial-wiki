@@ -1,3 +1,5 @@
+# file モジュール (ファイル・ディレクトリ操作)
+
 ファイル、シンボリックリンク、ディレクトリの所有者やモードの設定、削除削除を行うモジュールです。 他の多くのモジュールが同じオプションをサポートしています copy, template, assemble など
 
 parameter | default | choices | comments
