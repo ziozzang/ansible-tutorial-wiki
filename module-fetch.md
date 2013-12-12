@@ -5,9 +5,10 @@
 parameter | default | choices | comments
 ----------|---------|---------|---------
 **dest*** | | | ファイルの保存先を指定します。対象ホストが `host.example.com` で `dest` が `/backup` で、`src` が `/etc/profile` の場合、`/backup/host.example.com/etc/profile` に保存されます
-fail_on_missing | no | yes / no | コピー元ファイルが存在しかなった場合を失敗として扱います
-flat | | | `hostname/path/to/file` というデフォルトの保存先の上書きを許可します。`dest` が '/' で終わる場合は `basename` をファイル名としてそのディレクトリに保存します
+fail_on_missing | no | yes / no | コピー元ファイルが存在しかなった場合を失敗として扱います (1.1 で追加されました)
+flat | | | `hostname/path/to/file` というデフォルトの保存先の上書きを許可します。`dest` が '/' で終わる場合は `basename` をファイル名としてそのディレクトリに保存します (1.2 で追加されました)
 src | | | fetch するファイルの対象ホスト上の path を指定します。ディレクトリには対応していません。再帰的なコピーは今後のリリースで対応予定です
+validate_md5 | yes | yes / no | fetch 後に md5sum を比較します (1.4 で追加されました)
 
 **太字*** は必須
 
