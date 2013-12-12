@@ -15,7 +15,8 @@ serole | | | role part of SELinux file context, `_default` feature works as for 
 setype | | | type part of SELinux file context, `_default` feature works as for seuser
 seuser | | | user part of SELinux file context. Will default to system policy, if applicable. If set to `_default`, it will use the `user` portion of the policy if available
 src | | | シンボリックリンクのリンク元path
-state | file | file / link / directory / hard / absent | `directory` の場合、`mkdir -p` のように途中の directory も作成します。`absent` の場合、directory は再帰的に削除され、ファイルやリンクは unlink されます
+state | file | file / link / directory / hard / absent / touch | `directory` の場合、`mkdir -p` のように途中の directory も作成します。`absent` の場合、directory は再帰的に削除され、ファイルやリンクは unlink されます。1.4 で `touch` が追加されました、touch コマンドと同じく timestamp を更新します
+
 **太字*** は必須
 
 ### 例
