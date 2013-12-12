@@ -45,7 +45,7 @@ server2 listen_port=81 relay_server=relay2
 ```
 
 予約変数名
-SSH の項目で説明しますが、SSH 関連で予約されている変数名があります
+[SSH の項目](SSH)で説明しますが、SSH 関連で予約されている変数名があります
 
 * ansible_ssh_host
   * あまり必要な場面がなさそうですが、イベントリのホスト名とSSH接続用のホスト名を分けたい場合に指定
