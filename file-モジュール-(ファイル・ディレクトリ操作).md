@@ -16,7 +16,7 @@ src | | | シンボリックリンクのリンク元path
 state | file | file / link / directory / hard / absent | `directory` の場合、`mkdir -p` のように途中の directory も作成します。`absent` の場合、directory は再帰的に削除され、ファイルやリンクは unlink されます
 **太字*** は必須
 
-例
+### 例
 ```yml
 - file: path=/etc/foo.conf owner=foo group=foo mode=0644
 - file: src=/file/to/link/to dest=/path/to/symlink owner=foo group=foo state=link
