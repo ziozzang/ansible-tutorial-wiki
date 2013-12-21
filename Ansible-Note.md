@@ -19,5 +19,7 @@
 * [条件付き実行](when)
 * [Backup File](backup-file)
 * [エラーを無視する](ignore-errors)
+* [エラーの条件を指定する](failed-when)
+* [changedにする条件を指定する](changed-when)
 * [委譲 (task を別のホストで実行する)](delegation)
 * [Advanced Playbook](http://www.ansibleworks.com/docs/playbooks2.html)
