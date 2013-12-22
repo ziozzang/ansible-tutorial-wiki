@@ -1,3 +1,5 @@
+[戻る](ansible-note)
+
 # 委譲 (task を別のホストで実行する)
 
 例えば deploy の前にロードバランサーから外し、終わったらまた戻すという処理を行う場合 `delegate_to` を使ってその task をロードバランサーで実行させることができます。 Ansible には BIG-IP や NetScaler のモジュールがあります。
