@@ -1,3 +1,5 @@
+[戻る](ansible-note)
+
 # サーバーの情報を利用する (GATHERING FACTS)
 
 playbook を実行するとまずサーバの情報を収集します。 実行時に `GATHERING FACTS` を表示されている部分です。次のような情報が収集され、これを task の中で利用することができます
