@@ -1,3 +1,5 @@
+[戻る](ansible-note)
+
 # Backup File
 
 `copy`, `template`, `lineinfile` などに `backup` オプションがある。これは更新対象のファイル(path)に日時(%Y-%m-%d@%H:%M~)サフィックスをつけてバックアップとして保存します。変更の必要がない場合はバックアップファイルも作成されません。
