@@ -1,3 +1,5 @@
+[戻る](ansible-note)
+
 # サーバーの情報(fact)を集める
 
 [サーバーの情報を利用する (GATHERING FACTS)](gathering-facts) で得られる情報は全サーバーから収集できると便利ですよね。ansible コマンドで簡単に収集することができます。
