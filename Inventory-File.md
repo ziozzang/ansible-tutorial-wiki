@@ -1,3 +1,4 @@
+[戻る](ansible-note)
 # インベントリフィアル
 
 Ansible では制御対象のサーバーのリストをインベントリファイルに書く必要があります。コマンドラインオプション(`-i`)で指定しない場合のデフォルトファイルは `/etc/ansible/hosts` です。この path は `ansible.cfg` ファイルにて設定可能です。
@@ -9,7 +10,7 @@ Best Practices のドキュメントには test, staging, production などに�
 
 インベントリファイルには対象ホストのホスト名もしくはIPアドレスを列挙します。 グルーピングすることができ、playbook の `hosts` 設定で対象を特定のグループに絞ったり、そのグループに属しているサーバーにのみ適用されるグループ変数を使うことができます。
 
-グルーピングの例 ([Hosts and Groups](http://www.ansibleworks.com/docs/patterns.html#id2))
+グルーピングの例 ([Hosts and Groups](http://www.ansibleworks.com/docs/intro_inventory.html#id5))
 ```ini
   [app-servers]
   app01
@@ -33,7 +34,7 @@ db-[a:f].example.com
 
 1つのホストが複数のグループに属すことも可能です
 
-`&` や `!` などで複雑な指定も可能です ([Selecting Targets](http://www.ansibleworks.com/docs/patterns.html#id4))
+`&` や `!` などで複雑な指定も可能です ([Patterns](http://www.ansibleworks.com/docs/intro_patterns.html))
 
 ## ホスト変数
 
