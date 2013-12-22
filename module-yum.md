@@ -1,3 +1,5 @@
+[戻る](ansible-note)
+
 # yum モジュール (yum でのパッケージ管理)
 
 parameter | default | choices | comments
