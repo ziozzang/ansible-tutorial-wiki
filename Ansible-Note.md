@@ -23,3 +23,4 @@
 * [changedにする条件を指定する (changed_when)](changed-when)
 * [委譲 (task を別のホストで実行する)](delegation)
 * [Advanced Playbook](http://www.ansibleworks.com/docs/playbooks2.html)
+* [特定のグループに入っている場合のみ実行]
