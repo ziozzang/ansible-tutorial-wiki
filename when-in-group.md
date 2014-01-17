@@ -10,3 +10,9 @@
       action: ...
       when: ansible_hostname in group['group-b']
 ```
+
+逆（グループに属さない）場合は `not in` を使う
+
+```
+      when: ansible_hostname not in group['group-b']
+```
