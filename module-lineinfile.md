@@ -20,6 +20,11 @@ state | present | present / absent | `absent` の場合は `regexp` にマッチ
 validate | None | | ファイルを入れ替える前に任意のコマンドを実行してファイルの syntax チェックなどを行います (1.4 で追加されました)
 その他 | | | file モジュールで指定可能なものすべてが使えます
 
+単にとある1行を追加したいだけの場合はこれだけでOK
+```yml
+- lineinfile: dest=/etc/snmp/snmpd.conf line='dontLogTCPWrappersConnects yes'
+```
+
 ## 例
 
 ```yml
