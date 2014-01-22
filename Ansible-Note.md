@@ -12,6 +12,8 @@
   * [yum](module-yum)
   * [command](module-command)
   * [pause](module-pause)
+  * [git](module-git)
+  * [subversion](module-subversion)
 * [結果を変数に保存して利用する](register)
 * [変数の優先順](precedence-rules)
 * [サーバーの情報を利用する](gathering-facts)
