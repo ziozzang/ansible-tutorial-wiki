@@ -12,7 +12,7 @@ createhome | yes | yes / no | `no` にしない場合はアカウント作成後
 force | no | yes / no | `state=absent` の場合、 `userdel --force` として処理される
 generate_ssh_key | no | yes / no | SSH key を作成するかどうか。既に存在する場合には上書きしません
 group | | | ユーザーのプライマリグループをグループ名で指定する
-groups | | | カンマ区切りのグループリストにユーザーを追加する。 `groups=` と、空文字列をしていするとプライマリグループ以外から削除します
+groups | | | カンマ区切りのグループリストにユーザーを追加する。プライマリグループをここに入れる必要はありません。 `groups=` と、空文字列をしていするとプライマリグループ以外から削除します。
 home | | | ホームディレクトリの path を指定する
 login_class | | | FreeBSD, OpenBSD, NetBSD 用の login class を指定する
 **name*** | | | 操作対象のユーザー名を指定
