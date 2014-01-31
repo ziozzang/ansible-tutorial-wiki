@@ -29,3 +29,4 @@
 * [Jinjaテンプレート](jinja-template)
 * [リスト型変数へのフィルター](list-filter)
 * [パスへの便利フィルター](path-filter)
+* [あるグループのメンバーにだけ適用する](host-in-group)
