@@ -28,3 +28,4 @@
 * [特定のグループに入っている場合のみ実行](when-in-group)
 * [Jinjaテンプレート](jinja-template)
 * [リスト型変数へのフィルター](list-filter)
+* [パスへの便利フィルター](path-filter)
