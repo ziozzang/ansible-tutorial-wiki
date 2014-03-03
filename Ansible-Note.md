@@ -31,3 +31,4 @@
 * [パスへの便利フィルター](path-filter)
 * [あるグループのメンバーにだけ適用する](host-in-group)
 * [オレオレベストプラクティス](http://qiita.com/yteraoka/items/5ed2bddefff32e1b9faf)
+* [SSH Gateway 越しに Ansible](ssh-proxy-command)
