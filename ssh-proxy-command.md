@@ -1,9 +1,8 @@
-[戻る](ansible-note)
+[돌아가기](ansible-note)
 
-## SSH Gateway 越しに対象サーバーに接続して Playbook を適用する
+## SSH Gateway를 통해 대상 서버에 연결되는 Playbook을 적용
 
-接続に paramiko ではなく、ssh を使うように `-c ssh` オプションを指定します。
-また、ProxyCommand を設定するために ssh_config ファイルを ssh の `-F` オプションで指定するために ANSIBLE_SSH_ARGS 環境変数を設定します。
+연결에 paramiko 대신 ssh를 사용하도록 -c ssh 옵션을 지정합니다. 또한 ProxyCommand을 설정하기 위해 ssh_config 파일을 ssh의 -F 옵션에서 지정하는 ANSIBLE_SSH_ARGS 환경 변수를 설정합니다.
 
 ```
 $ cat ssh_config
